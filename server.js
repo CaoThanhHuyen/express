@@ -11,7 +11,7 @@ app.get('/', (req, res, next) => {
     res.sendFile(duongdan);
 })
  
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log('server dang chay 300');
 })
 
